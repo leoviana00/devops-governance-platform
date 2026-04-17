@@ -8,8 +8,8 @@
 
 ## Fase 1 — Fundação
 
-- [ ] Subir Jenkins via Docker Compose
-- [ ] Instalar plugins automáticos
+- [x] Subir Jenkins via Docker Compose
+- [x] Instalar plugins automáticos
 - [ ] Criar Spring Boot App
 - [ ] Criar endpoint `/health`
 
