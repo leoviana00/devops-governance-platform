@@ -10,8 +10,8 @@
 
 - [x] Subir Jenkins via Docker Compose
 - [x] Instalar plugins automáticos
-- [ ] Criar Spring Boot App
-- [ ] Criar endpoint `/health`
+- [x] Criar Spring Boot App
+- [x] Criar endpoint `/health`
 
 ---
 
