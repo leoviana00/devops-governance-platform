@@ -2,8 +2,6 @@ FROM jenkins/jenkins:lts
 
 USER root
 
-# NÃO instalar docker aqui ❌
-
 # Copiar plugins
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 
