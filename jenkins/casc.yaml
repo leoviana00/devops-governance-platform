@@ -1,16 +1,21 @@
 jenkins:
-  systemMessage: "Jenkins CI/CD - Projeto DevOps"
+  systemMessage: "DevOps Governance Platform"
+
+  numExecutors: 2
 
   securityRealm:
     local:
       allowsSignup: false
       users:
-        - id: "admin"
-          password: "admin123"
+        - id: admin
+          password: admin123
 
   authorizationStrategy:
     loggedInUsersCanDoAnything:
       allowAnonymousRead: false
+
+jobs:
+  - file: /var/jenkins_home/jobs/seed.groovy
 
 unclassified:
   location:

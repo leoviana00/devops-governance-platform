@@ -8,3 +8,5 @@ credentials-binding
 configuration-as-code
 job-dsl
 sonar
+matrix-auth
+ws-cleanup
